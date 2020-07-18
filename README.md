@@ -16,6 +16,31 @@ https://www.buymeacoffee.com/dzeknjak
 
 This resource basically fills in the gaps that are found across the map.
 
+## Installing Dependencies / Installation
+
+**I cannot stress this enough. Ensure you have NodeJS 13+ or you will have problems.**
+
+-   [NodeJS 13+](https://nodejs.org/en/download/current/)
+-   An Existing or New Gamemode
+-   General Scripting Knowledge
+
+Afterwards, simply add the name of this resource to your `server.cfg` resource section.
+
+`altv-os-missing-interiors`
+
+Then simply clone this repository into your main server resources folder.
+
+```
+cd resources
+git clone https://github.com/jovanivanovic/altv-os-missing-interiors
+```
+
+Ensure your `package.json` includes this property:
+
+```json
+"type": "module"
+```
+
 # Usage
 
 Just load the resource in the `server.cfg` before all the other resources and you're good to go.
