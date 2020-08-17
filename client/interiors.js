@@ -155,23 +155,13 @@ if (natives.isValidInterior(interiorID)) {
 
 interiorID = natives.getInteriorAtCoords(976.6364, 70.29476, 115.1641);
 if (natives.isValidInterior(interiorID)) {
-    natives.activateInteriorEntitySet(interiorID, 'teste1');
-    natives.activateInteriorEntitySet(interiorID, 'teste2');
-    natives.activateInteriorEntitySet(interiorID, 'teste3');
-    natives.activateInteriorEntitySet(interiorID, 'teste4');
-    natives.activateInteriorEntitySet(interiorID, 'teste11');
-    natives.activateInteriorEntitySet(interiorID, 'teste17');
-    natives.activateInteriorEntitySet(interiorID, 'teste18');
-    natives.activateInteriorEntitySet(interiorID, 'teste19');
-    natives.activateInteriorEntitySet(interiorID, 'teste20');
-    natives.activateInteriorEntitySet(interiorID, 'teste21');
-    natives.activateInteriorEntitySet(interiorID, 'teste29');
-    natives.activateInteriorEntitySet(interiorID, 'teste32');
-    natives.activateInteriorEntitySet(interiorID, 'teste33');
-    natives.activateInteriorEntitySet(interiorID, 'teste34');
-    natives.activateInteriorEntitySet(interiorID, 'teste1', 3);
-    natives.activateInteriorEntitySet(interiorID, 'teste2', 3);
-    natives.activateInteriorEntitySet(interiorID, 'teste4', 3);
-    natives.activateInteriorEntitySet(interiorID, 'teste11', 3);
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Tint_Shell');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Pattern_09');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Spa_Bar_Open');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Media_Bar_Open');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Arcade_Modern');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Bar_Clutter');
+    natives.activateInteriorEntitySet(interiorID, 'Set_Pent_Clutter_03');
+    natives.activateInteriorEntitySet(interiorID, 'Set_pent_bar_light_02');
     natives.refreshInterior(interiorID);
 }
