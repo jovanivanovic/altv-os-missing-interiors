@@ -3,6 +3,7 @@
 import alt from 'alt-client';
 import natives from 'natives';
 
+alt.requestIpl('bh1_47_joshhse_unburnt');
 alt.requestIpl('ex_dt1_02_office_02b');
 alt.requestIpl('chop_props');
 alt.requestIpl('FIBlobby');
