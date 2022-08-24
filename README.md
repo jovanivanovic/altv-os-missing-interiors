@@ -1,3 +1,5 @@
+# NOTICE: Instead of using this resource, you should just call `alt.loadDefaultIpls()`,
+
 # Open Source - Load Missing Interiors / Structures / IPLs for alt:V
 
 Created by Dzeknjak (Jovan Ivanovic)
